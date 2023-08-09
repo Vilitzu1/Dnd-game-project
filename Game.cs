@@ -20,7 +20,7 @@ namespace DND
             ui.CopyrightText();
             MusicBox.PlayIntroSong();
 
-            //Sankarille osa arvoista kysytään käyttäjältä ja loput arvotaan.
+            //Sankarille pieni osa arvoista kysytään käyttäjältä ja loput arvotaan.
             ui.AskCharacterStats(ref hero);
             hero.FillInRest();
 
